@@ -1,0 +1,13 @@
+﻿  problem1722.c
+C:\Users\nagih\source\repos\BaekJoon\BaekJoon\problem1722.c(23,6): warning C4101: 'arr' :참조되지 않은 지역 변수입니다.
+C:\Users\nagih\source\repos\BaekJoon\BaekJoon\problem1722.c(99,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+C:\Users\nagih\source\repos\BaekJoon\BaekJoon\problem1722.c(103,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+C:\Users\nagih\source\repos\BaekJoon\BaekJoon\problem1722.c(109,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+C:\Users\nagih\source\repos\BaekJoon\BaekJoon\problem1722.c(119,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+C:\Users\nagih\source\repos\BaekJoon\BaekJoon\problem1722.c(63): warning C4716: 'subProblem1': 값을 반환해야 합니다.
+C:\Users\nagih\source\repos\BaekJoon\BaekJoon\problem1722.c(93): warning C4716: 'subProblem2': 값을 반환해야 합니다.
+  BaekJoon.vcxproj -> C:\Users\nagih\source\repos\BaekJoon\Debug\BaekJoon.exe

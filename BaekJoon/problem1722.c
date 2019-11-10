@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "problem1722.h"
 
 #define FALSE 0
 #define TRUE 1
@@ -20,7 +19,46 @@ void getFactorial(void)
 
 int subProblem1(long long index)
 {
-	
+	int arr[20];
+	int used[21];
+
+	index--;
+
+	for (int i = 0; i < 21; i++)
+	{
+		used[i] = FALSE;
+	}
+
+	for (int i = range - 1; i > 0; i--)
+	{
+		long long subIndex = index / factorial[i];
+		int n = 0;
+
+		for (int j = 1; j <= range; j++)
+		{
+			if (n == subIndex && used[j] == FALSE)
+			{
+				printf("%d ", j);
+				used[j] = TRUE;
+				break;
+			}
+
+			if (used[j] == FALSE)
+			{
+				n++;
+			}	
+		}
+
+		index = index % factorial[i];
+	}
+
+	for (int i = 1; i <= range; i++)
+	{
+		if (used[i] == FALSE)
+		{
+			printf("%d", i);
+		}
+	}
 }
 
 int subProblem2(int arr[])
